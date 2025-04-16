@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-langchain-community = "*"
 langgraph = "*"
 langchain-anthropic = "*"
 tavily-python = "*"
@@ -15,6 +14,12 @@ langchain-huggingface = "*"
 jupyter = "*"
 ipywidgets = "*"
 bs4 = "*"
+langchain-community = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+certifi = "*"
+pip-system-certs = "*"
+nest-asyncio = "*"
 
 [dev-packages]
 ipykernel = "*"
